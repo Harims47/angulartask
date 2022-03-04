@@ -1,5 +1,7 @@
 # Angulartask
 
+Sonar Status : [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Harims47_angulartask&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Harims47_angulartask)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
