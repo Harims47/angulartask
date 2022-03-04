@@ -1,7 +1,4 @@
 
-<!-- <app-page></app-page> -->
-
-
 <div class="control-section">
     <div class="content-wrapper">
       <ejs-kanban #kanbanObj cssClass='kanban-overview' keyField="Status" [dataSource]='kanbanData'
@@ -28,10 +25,10 @@
               <div class='e-text'> <i class="pe-7s-study"></i> {{data.qualification}}</div>
             </div>
             <div class='e-card-content e-tooltip-text'>
-              <div class='e-text'><i class="pe-7s-portfolio "></i> {{data.Summary}}</div>
+              <div class='e-text'><i class="pe-7s-portfolio "></i> {{data.Role}}</div>
             </div>
             <div class='e-card-custom-footer'>
-              <div class="e-tooltip-text" *ngFor="let tag of data.Tags.split(',');"> <i class="pe-7s-info"></i>{{tag}}</div>
+              <div class="e-tooltip-text" *ngFor="let tag of data.experience.split(',');"> <i class="pe-7s-info"></i>{{tag}}</div>
              
             </div>
           </div>

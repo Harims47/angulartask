@@ -9,7 +9,6 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
-import { DropDownListAllModule } from '@syncfusion/ej2-angular-dropdowns'; 
 import { KanbanModule } from '@syncfusion/ej2-angular-kanban';
 import { PagetwoComponent } from './pagetwo/pagetwo.component';
 
@@ -27,7 +26,6 @@ import { PagetwoComponent } from './pagetwo/pagetwo.component';
     MatIconModule,
     DragDropModule,
     DropDownListModule,
-    DropDownListAllModule,
     KanbanModule
   ],
   providers: [],

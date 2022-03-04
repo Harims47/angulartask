@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit, ViewChild } from '@angular/core';
+import { Component, Inject, ViewChild } from '@angular/core';
 import { extend, addClass } from '@syncfusion/ej2-base';
 import { KanbanComponent, ColumnsModel, CardSettingsModel, SwimlaneSettingsModel, DialogSettingsModel, CardRenderedEventArgs } from '@syncfusion/ej2-angular-kanban';
 import { cardData } from './data';
@@ -11,7 +11,7 @@ import { cardData } from './data';
 @Inject(
   {providedIn: 'any'}
 )
-export class PagetwoComponent implements OnInit {
+export class PagetwoComponent {
 
   
   @ViewChild('kanbanObj') kanbanObj: KanbanComponent;
@@ -32,8 +32,8 @@ export class PagetwoComponent implements OnInit {
           { text: 'ID', key: 'Title', type: 'TextBox' },
           { key: 'Status', type: 'DropDown' },
           { key: 'Assignee', type: 'DropDown' },
-          { key: 'RankId', type: 'TextBox' },
-          { key: 'Summary', type: 'TextArea' }
+          { key: 'experience', type: 'TextBox' },
+          { key: 'Role', type: 'TextArea' }
       ]
   };
   public swimlaneSettings: SwimlaneSettingsModel = { keyField: 'Assignee' };
@@ -46,9 +46,4 @@ export class PagetwoComponent implements OnInit {
       const val: string = (<{ [key: string]: Object; }>(args.data))['Priority'] as string;
       addClass([args.element], val);
   }
-
- 
-  ngOnInit(): void {
-  }
-
 }
