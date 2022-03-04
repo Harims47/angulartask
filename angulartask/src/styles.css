@@ -23,7 +23,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
   
   .kanban-overview.e-kanban .header-template-wrap .header-icon {
-    font-family: 'Kanban priority icons';
+  
     margin-top: 3px;
     width: 10%;
   }
@@ -137,8 +137,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   
   [class^="sf-icon-"],
   [class*=" sf-icon-"] {
-    font-family: 'Kanban priority icons' !important;
-  
     font-size: 55px;
     font-style: normal;
     font-weight: normal;

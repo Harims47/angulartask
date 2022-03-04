@@ -17,7 +17,4 @@ export class PageComponent {
         grabberField: 'Color',
         footerCssField: 'ClassName'
     };
-
-  constructor() { }
-
 }
